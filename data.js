@@ -104,4 +104,4 @@ var cityGrowths = [
     "Increase_from_2016": "10534",
     "population": "302539"
   }
- ]
+ ];
