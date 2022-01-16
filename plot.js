@@ -33,3 +33,7 @@ var layout = {
 };
 
 Plotly.newPlot("bar-plot", data, layout);
+
+d3.json("samples.json").then(function(data){
+    console.log("hello");
+});
