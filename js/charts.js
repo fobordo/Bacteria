@@ -153,7 +153,7 @@ function buildCharts(sample) {
       type: "indicator",
       mode: "gauge+number",
       title: {text: "<b>Belly Button Washing Frequency</b> <br> Scrubs per Week"},
-      guage: {
+      gauge: {
         axis: {range: [0, 10]},
         bar: {color: "black"},
         steps: [
@@ -168,7 +168,8 @@ function buildCharts(sample) {
     
     // 5. Create the layout for the gauge chart.
     var gaugeLayout = { 
-     
+     width: 500,
+     height: 500
     };
 
     // 6. Use Plotly to plot the gauge data and layout.
