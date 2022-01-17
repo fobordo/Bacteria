@@ -49,8 +49,3 @@ function buildMetadata(sample) {
         PANEL.append("h6").text("WFREQ: " + result.wfreq);
     });
 }
-
-// Uses the ID number to create that specific individual's charts
-function buildCharts(sample) {
-
-}
