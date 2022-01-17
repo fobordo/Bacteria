@@ -8,6 +8,8 @@
     <title>Belly Button Biodiversity</title>
     <!--Link to the Bootstrap CDN-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Link to the style.css stylesheet in the css folder-->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -15,8 +17,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 jumbotron text-center">
-                <h1>Belly Button Biodiversity Dashboard</h1>
+                <h1 class="p-3 mb-2 bg-dark text-white">Belly Button Biodiversity Dashboard</h1>
                 <p>Use the interactive charts below to explore the dataset</p>
+            </div>
+        </div>
+        <!--Purpose-->
+        <div class="row">
+            <div class="col-md-12">
+                <h4 style="color:aliceblue">The purpose...</h4>
             </div>
         </div>
         <div class="row">
@@ -37,14 +45,18 @@
             </div>
             <div class="col-md-4">
                 <div id="bar"></div>
+                <h5 style="color:aliceblue">The "Top 10 Bacteria Cultures Found" bar chart above displays the top 10 bacterial species (OTUs) found in the test subject's belly button.</h5>
             </div>
             <div class="col-md-6">
                 <div id="gauge"></div>
+                <h5 style="color:aliceblue">The "Belly Button Washing Frequency" gauge chart above displays the number of times the test subject washes their belly button per week.</h5>
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
                 <div id="bubble"></div>
+                <h5 style="color:aliceblue">The "Bacteria Cultures Per Sample" bubble chart above displays the number of each bacterial species (OTUs) 
+                    found in the test subject's belly button. When a bubble is hovered over, you can see the names of the specific types of bacteria found.</h5>
             </div>
         </div>
     </div>
