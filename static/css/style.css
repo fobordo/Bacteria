@@ -5,7 +5,7 @@ body {
 
 /*Sets the background image, and formats the background size and text alignment of the jumbotron*/
 .jumbotron {
-    background-image: url("/images/jumbotron.jpeg");
+    background-image: url("../images/jumbotron.jpeg");
     background-size: 100% 100%;
     text-align: center;
     color: #f8faf9;
