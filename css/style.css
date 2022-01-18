@@ -1,7 +1,6 @@
 body {
-    /*Formats the font color for the body of the page*/
-    /*color: #f7f7f7;*/
-    background-color: rgb(7, 7, 71);
+    /*Formats the background color of the webpage*/
+    background-color: rgb(8, 12, 43);
 }
 
 /*Sets the background image, and formats the background size and text alignment of the jumbotron*/

@@ -1,2 +1,4 @@
-# Bacteria
-Module 12 Repository
+# Belly Button Biodiversity Analysis
+
+## Overview
+The purpose of the Belly Button Biodiversity analysis was to observe bacterial species that have ability to synthesize proteins that taste like beef. It is hypothesized that the ideal bacterial species to make synthetic beef may be found in the belly button. To test this hypothesis, the navels of people across the country were [sampled](samples.json) to identify bacterial species that colonize in human belly buttons. A website was created using HTML, JavaScript, Bootstrap, and CSS, in which a user can select the ID number of a sampled person from a dropdown menu. The demographics information of the selected ID are then displayed, along with a a bar chart on top 10 bacteria cultures found, a gauge chart on belly button washing frequency, and a bubble chart on bacteria cultures per sample.
